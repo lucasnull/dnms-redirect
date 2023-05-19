@@ -1,0 +1,55 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1, h2, h3, h4, h5, h6,
+p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul and ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Remove default padding */
+ul[class] > li,
+ol[class] > li {
+  padding: 0;
+}
+
+/* Set default font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Reset font styles */
+a,
+b,
+i,
+strong,
+em {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Remove default border */
+img,
+iframe {
+  border: 0;
+}
+
+/* Remove outline for focused elements */
+:focus {
+  outline: none;
+}
